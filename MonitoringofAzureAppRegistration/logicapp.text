@@ -1,0 +1,60 @@
+{
+  "definition": {
+    "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+    "contentVersion": "1.0.0.0",
+    "triggers": {
+      "When_a_HTTP_request_is_received": {
+        "type": "Request",
+        "kind": "Http",
+        "inputs": {
+          "schema": {
+            "properties": {
+              "htmlContent": {
+                "type": "string"
+              }
+            },
+            "type": "object"
+          }
+        }
+      }
+    },
+    "actions": {
+      "Send_an_email_(V2)": {
+        "type": "ApiConnection",
+        "inputs": {
+          "host": {
+            "connection": {
+              "name": "@parameters('$connections')['office365']['connectionId']"
+            }
+          },
+          "method": "post",
+          "body": {
+            "To": "ben_alaya_achraf@outlook.com",
+            "Subject": "updates",
+            "Body": "<p class=\"editor-paragraph\">@{triggerBody()?['htmlContent']}</p>",
+            "Importance": "Normal"
+          },
+          "path": "/v2/Mail"
+        },
+        "runAfter": {}
+      }
+    },
+    "parameters": {
+      "$connections": {
+        "type": "Object",
+        "defaultValue": {}
+      }
+    }
+  },
+  "parameters": {
+    "$connections": {
+      "value": {
+        "office365": {
+          "id": "/subscriptions/subid/providers/Microsoft.Web/locations/francecentral/managedApis/office365",
+          "connectionId": "/subscriptions/subid/resourceGroups/rg-app-registration-001/providers/Microsoft.Web/connections/office365",
+          "connectionName": "office365"
+        }
+      }
+    }
+  }
+}
