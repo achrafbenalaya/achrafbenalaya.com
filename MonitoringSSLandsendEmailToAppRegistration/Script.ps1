@@ -7,8 +7,8 @@ param(
 # Embedded JSON data
 $RenewalDataJson = @'
 [
-    { "url": "link": "manuel" },
-    { "url": "link", "renew_type": "manuel" },
+
+    { "url": "https://example.com"", "renew_type": "manuel" }
 ]
 '@
 
@@ -48,16 +48,6 @@ foreach ($entry in $RenewalData) {
         $req = [Net.HttpWebRequest]::Create($Name)
         $req.Timeout = $timeoutMilliseconds
         $req.AllowAutoRedirect = $true
-        # try {
-        #    # $req.GetResponse() | Out-Null
-        #    $response = $req.GetResponse() # Ensure the response object is initialized
-
-
-        # } catch {
-        #     Write-Output "Exception while checking URL $Name`: $_" -ForegroundColor Red
-        #     Write-Output "Exception details: $($_.Exception | Format-List | Out-String)" -ForegroundColor Red
-        #     $OutputObject.ErrorMessage = $_.Exception.ToString()
-        # }
         try {
             $response = $req.GetResponse() # Ensure the response object is initialized
             if ($response -ne $null) {
@@ -232,9 +222,3 @@ try {
     $OutputObject.ErrorMessage = "DNS or general failure for $Name : $_"
     Write-Host "Failed to process $Name due to: $_" -ForegroundColor Red
 }
-
-# Output HTML to file
-#$HtmlContent | Out-File $HtmlOutputPath
-
-# Optional: Open the HTML file in the default browser
-#Start-Process $HtmlOutputPath
