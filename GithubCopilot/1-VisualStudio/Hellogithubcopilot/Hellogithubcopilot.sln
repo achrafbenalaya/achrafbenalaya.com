@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hellogithubcopilot", "Hellogithubcopilot\Hellogithubcopilot.csproj", "{6458E48D-653B-4364-A1E8-75F7A700F29A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestwithgihubcopilot", "UnitTestwithgihubcopilot\UnitTestwithgihubcopilot.csproj", "{6BBAC80D-086A-4BBE-A759-6D0A30B6BCAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6458E48D-653B-4364-A1E8-75F7A700F29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6458E48D-653B-4364-A1E8-75F7A700F29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6458E48D-653B-4364-A1E8-75F7A700F29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6458E48D-653B-4364-A1E8-75F7A700F29A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBAC80D-086A-4BBE-A759-6D0A30B6BCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBAC80D-086A-4BBE-A759-6D0A30B6BCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBAC80D-086A-4BBE-A759-6D0A30B6BCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBAC80D-086A-4BBE-A759-6D0A30B6BCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CEA1555-AE60-4B74-A114-EB11B8C77752}
+	EndGlobalSection
+EndGlobal

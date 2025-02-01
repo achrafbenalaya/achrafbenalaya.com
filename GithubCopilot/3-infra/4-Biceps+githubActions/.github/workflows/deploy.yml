@@ -1,0 +1,25 @@
+name: Deploy Azure Resources
+
+on:
+  push:
+    branches:
+      - main  # Change this to your desired branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Azure CLI
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - name: Deploy Bicep file
+      run: |
+          az deployment group create \
+            --resource-group "rg-biceps-demo001" \
+            --template-file deployWebApp.bicep

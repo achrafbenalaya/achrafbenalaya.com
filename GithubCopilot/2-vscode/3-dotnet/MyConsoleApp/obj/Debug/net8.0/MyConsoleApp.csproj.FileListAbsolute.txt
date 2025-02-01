@@ -1,0 +1,14 @@
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\bin\Debug\net8.0\MyConsoleApp.exe
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\bin\Debug\net8.0\MyConsoleApp.deps.json
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\bin\Debug\net8.0\MyConsoleApp.runtimeconfig.json
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\bin\Debug\net8.0\MyConsoleApp.dll
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\bin\Debug\net8.0\MyConsoleApp.pdb
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.AssemblyInfoInputs.cache
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.AssemblyInfo.cs
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.csproj.CoreCompileInputs.cache
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.dll
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\obj\Debug\net8.0\refint\MyConsoleApp.dll
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.pdb
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.genruntimeconfig.cache
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\2-VsCode\3-DotNet\MyConsoleApp\obj\Debug\net8.0\ref\MyConsoleApp.dll

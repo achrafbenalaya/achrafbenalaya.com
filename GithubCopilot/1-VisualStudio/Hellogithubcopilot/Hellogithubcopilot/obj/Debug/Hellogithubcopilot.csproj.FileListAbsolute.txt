@@ -1,0 +1,7 @@
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\1- VisualStudio\1-basic\Hellogithubcopilot\Hellogithubcopilot\bin\Debug\Hellogithubcopilot.exe.config
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\1- VisualStudio\1-basic\Hellogithubcopilot\Hellogithubcopilot\bin\Debug\Hellogithubcopilot.exe
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\1- VisualStudio\1-basic\Hellogithubcopilot\Hellogithubcopilot\bin\Debug\Hellogithubcopilot.pdb
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\1- VisualStudio\1-basic\Hellogithubcopilot\Hellogithubcopilot\obj\Debug\Hellogithubcopilot.csproj.AssemblyReference.cache
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\1- VisualStudio\1-basic\Hellogithubcopilot\Hellogithubcopilot\obj\Debug\Hellogithubcopilot.csproj.CoreCompileInputs.cache
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\1- VisualStudio\1-basic\Hellogithubcopilot\Hellogithubcopilot\obj\Debug\Hellogithubcopilot.exe
+C:\Achraf\JohnMcClane\MattFarrell\OnLocalBeforeOnline\GithubCopilot\1- VisualStudio\1-basic\Hellogithubcopilot\Hellogithubcopilot\obj\Debug\Hellogithubcopilot.pdb
